@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.mobil80.chatbot_vaultchat"
-    compileSdk = 35
+    compileSdk = 36 // Updated to 36 as required by dependencies
 
     defaultConfig {
         minSdk = 24
@@ -43,9 +43,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.mobil80" // Change this to your actual GitHub username if different
+                groupId = "com.github.NanthagopalG" 
                 artifactId = "chatbot-vaultchat"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
