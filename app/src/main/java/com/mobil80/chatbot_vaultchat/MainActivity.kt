@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         // Initialize VaultChat with  simple string props
         VaultChat.init(
             context = this,
-            apiKey = "633FAAC1A303-440D-96F9-4FC0EF674EBA",
-            primaryColor = "blue",
-            theme = "dark",
+            apiKey = "YOUR_API_KEY",
+            primaryColor = "red",
+            theme = "light",
             buttonContent = "",
             buttonType = "text",
             buttonShape = "square"
